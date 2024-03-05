@@ -150,6 +150,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+.single-service:hover{
+  box-shadow:12px 12px 2px 1px rgba(163, 163, 185, 0.2);;
+  
+}
 
 ul {
   list-style: outside none none;
@@ -2997,7 +3001,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     13. Your Opinion Css
 -----------------------------*/
 .opinion-bg {
-  background: url(../images/bg/01.jpg);
+  background: url(/image/ac3.jpg);
   background-size: cover;
 }
 
