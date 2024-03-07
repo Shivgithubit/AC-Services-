@@ -1393,6 +1393,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     text-align: center;
   }
 }
+.icon li a i{
+  width: 40px;
+  height: 40px;
+}
 
 .contact-information-top {
   display: flex;
@@ -1728,7 +1732,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   transition: 0.3s ease-in-out;
 }
 .service-slider-active .slick-arrow:hover {
-  background: #fb7832;
+  background: #00408e;
   color: #ffffff;
 }
 .service-slider-active .slick-arrow.slick-next {
@@ -1892,7 +1896,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-align: center;
 }
 .service-details-menu li a.active {
-  background: #fb7832;
+  background: #00408e;
   color: #ffffff;
 }
 .service-details-menu li:last-child {
@@ -1928,7 +1932,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   margin: 0;
 }
 .service-details-content-inner .service-details-list li i {
-  color: #fb7832;
+  color: #00408e;
   margin-right: 10px;
 }
 
@@ -2004,7 +2008,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   width: 70px;
   left: 0;
   top: -10px;
-  background: #fb7832;
+  background: #00408e;
   content: "";
   position: absolute;
 }
@@ -2013,7 +2017,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   width: 10px;
   left: -10px;
   top: -10px;
-  background: #fb7832;
+  background: #00408e;
   content: "";
   position: absolute;
 }
@@ -2023,7 +2027,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   width: 70px;
   right: -10px;
   bottom: -10px;
-  background: #fb7832;
+  background: #00408e;
   content: "";
   position: absolute;
 }
@@ -2031,7 +2035,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   height: 70px;
   right: -10px;
   bottom: -10px;
-  background: #fb7832;
+  background: #00408e;
   content: "";
   position: absolute;
   width: 10px;
@@ -2074,7 +2078,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 600;
 }
 .about-title h3 span {
-  color: #fb7832;
+  color: #00408e;
 }
 @media only screen and (max-width: 767px) {
   .about-title h3 {
@@ -2125,14 +2129,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   height: 30px;
   text-align: center;
   line-height: 30px;
-  border: 1px solid #fb7832;
-  color: #fb7832;
+  border: 1px solid #00408e;
+  color: #00408e;
   border-radius: 50%;
   display: block;
 }
 .about-info .social-link ul li a:hover {
   color: #fff;
-  background: #fb7832;
+  background: #00408e;
 }
 
 /*--
@@ -2152,7 +2156,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .repair-service-inner h3 {
   font-size: 22px;
   font-weight: 500;
-  color: #fb7832;
+  color: #00408e;
   margin-top: -5px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
