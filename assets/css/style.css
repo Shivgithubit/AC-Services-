@@ -705,7 +705,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .pt--20 {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .pt--25 {
@@ -806,7 +806,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .pb--20 {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .pb--25 {
@@ -2395,6 +2395,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 25px;
+  line-height: 60px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .something-new-inner h2 {
