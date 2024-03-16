@@ -1587,7 +1587,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-transform: capitalize;
 }
 .header-bottom-area{
-  background-color:#00408e;
+  background-color:#1a2362;
 }
 @media only screen and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
   .header-menu-two .make-apoinmant-button {
@@ -1611,7 +1611,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   left: 0;
   width: 100%;
   z-index: 999;
-  background: #fff;
+  background: #1a2362;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
