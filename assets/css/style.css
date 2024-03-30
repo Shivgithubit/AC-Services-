@@ -1081,7 +1081,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-align: center;
   height: 320px;
   width: 100%;
-  opacity: 0.77;
+  opacity: 0.87;
   background-color: #000;
   /* bfilter: blur(2px);  */
   /* -webkit-filter: blur(2px);  */
@@ -1091,6 +1091,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-size: 30px;
   font-weight: 600;
   margin-top: -5px;
+  color: #000000;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breadcrumb-area h2 {
@@ -1106,20 +1107,20 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .breadcrumb-list .breadcrumb-item {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  color: #555;
+  color: #000000;
   text-transform: capitalize;
   line-height: 1;
   display: inline-block;
 }
 .breadcrumb-list .breadcrumb-item.active {
-  color: #00408e;
+  color: #ddd;
 }
 .breadcrumb-list .breadcrumb-item a:hover {
-  color: #fb7832;
+  color: #00408e;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-  color: #000000;
+  color: #ffffff;
   content: "/";
   display: inline-block;
   padding-left: 0.5rem;
@@ -1955,7 +1956,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*--
    07. About Area Css
 ------------------------------*/
-.about-aircon-content {
+.about-fixondial-content {
   border: 10px solid #f1f1f1;
   margin-right: -120px;
   margin-top: 100px;
@@ -1963,21 +1964,21 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   position: relative;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .about-aircon-content {
+  .about-fixondial-content {
     padding: 40px 160px 40px 40px;
     margin-right: -150px;
     margin-top: 10px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .about-aircon-content {
+  .about-fixondial-content {
     padding: 20px 20px 20px 20px;
     margin-right: 0;
     margin-top: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-aircon-content {
+  .about-fixondial-content {
     padding: 40px 40px 40px 40px;
     margin-right: 0;
     margin-top: 0;
@@ -2401,19 +2402,20 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     11. Something New Css
 ------------------------------*/
 .something-new-bg {
-  background: url(../images/bg/02.jpg);
+  background: url(/image/acr.jpg);
   background-size: cover;
+  background-position: center;
 }
 .something-new-bg.overly-bg-black::before {
   background: rgba(0, 0, 0, 0.5);
 }
 
 .something-new-inner h2 {
-  font-size: 40px;
+  font-size: 37px;
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 25px;
-  line-height: 60px;
+  line-height: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .something-new-inner h2 {
@@ -3707,18 +3709,19 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 70%;
+  width: 75%;
   margin: auto;
   padding: 20px;
   position: relative;
   text-align: center;
+  text-align: justify;
 }
 
 .testimonial4_slide img {
   top: 0;
   left: 0;
   right: 0;
-  width: 146px;
+  width: 136px;
   height: 136px;
   margin: auto;
   display: block;
@@ -3926,6 +3929,22 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   .social{
       display: none;
   }
+  .testimonial4_slide{
+    width: 100%;
+  }
+  .carousel-control-prev-icon{
+    margin-left: -65px;
+  }
+  .carousel-control-next-icon{
+    margin-right:-65px;
+  }
+  .something-new-inner h2{
+    font-size: 26px;
+    line-height: 38px;
+  }
+ 
+ 
+  
 }
 @media only screen and (min-width:600px)and (max-width:767px){
 .mobile-menu .mean-bar .meanmenu-reveal span.menu-bar{
@@ -3951,12 +3970,38 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   .single-information-top .info-icon i{
     font-size: 15px;
   }
-}
-@media only screen and (min-width:300px)and (max-width:768px){
   .header-bottom-area{
       height: auto;
   }
+
 }
+.newheadh1{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 160px;
+}
+
+  .newheadh2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 160px;
+  
+  }
+  .newpara1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-right: 160px;
+    text-align: justify;
+    
+  }
+
+  
+
 
 
 
