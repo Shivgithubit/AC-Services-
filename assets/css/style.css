@@ -3973,34 +3973,73 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   .header-bottom-area{
       height: auto;
   }
+  .logo1{
+    margin-left: 0px !important;
+  }
+  .newbox{
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+
 
 }
 .newheadh1{
   font-size: 30px;
   font-weight: 600;
   margin-top: 20px;
-  margin-left: 200px;
-  margin-right: 160px;
+  font-family: "Open Sans", sans-serif;
+  /* margin-left: 160px;
+  margin-right: 150px;
+  */
 }
 
   .newheadh2{
     font-size: 30px;
     font-weight: 600;
     margin-top: 20px;
-    margin-left: 200px;
-    margin-right: 160px;
+    font-family: "Open Sans", sans-serif;
+    /* margin-left: 160px; */
   
   }
   .newpara1{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
-    margin-left: 200px;
-    margin-right: 160px;
+    /* margin-left: 160px;
+    margin-right: 150px; */
     text-align: justify;
     
   }
-
+  .logo{
+    margin-left: -25px;
+  }
+  .logo1{
+    margin-left: 25px;
+  }
   
+.whatsApp {
+    position: fixed;
+    top: 90%;
+    z-index: 5;
+    color: white;
+    /* width: 75%; */
+    margin-left: 62px;
+    height: 85px;
+    border-radius: 50px;
+}
+.whatsApp button{
+  background-color: #25d366;
+border: 1px solid #25d366;
+border-radius: 50%;
+
+}
+.whatsApp button i{
+  font-size: 45px;
+}
+.newbox{
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
 
 
 
