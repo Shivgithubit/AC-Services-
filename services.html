@@ -144,6 +144,10 @@
             </div>
             <!-- header-bottom-area End -->
         <!-- header-area end -->
+        <div class="whatsApp">
+
+            <button id="whatsappButton"><i class="fa-brands fa-whatsapp"></i></button>
+        </div>
     
     <!-- breadcrumb-area start -->
     <div class="breadcrumb-area section-ptb">
@@ -352,6 +356,32 @@
 <script src="assets/js/ajax-mail.js"></script>
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/660b9192a0c6737bd1273de0/1hqej19uk';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+<script>
+    document.getElementById("whatsappButton").addEventListener("click", function () {
+        // Replace 'phoneNumber' with the phone number of the contact you want to message
+        var phoneNumber = "+917088869369";
+
+        // Construct the WhatsApp URL with the phone number
+        var whatsappURL = "https://wa.me/" + phoneNumber;
+
+        // Open WhatsApp in a new tab
+        window.open(whatsappURL, "_blank");
+    });
+</script>
 
 </body>
 

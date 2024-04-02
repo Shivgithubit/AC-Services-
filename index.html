@@ -124,10 +124,6 @@
 
         .banner3 .btn-danger-gradiant {
             background-image: linear-gradient(#00408e, #2f8ec2);
-            /* background: -webkit-linear-gradient(legacy-direction(to right), #00408e 0%, #0c3970 100%);
-  background: -webkit-linear-gradient(left, #00408e 0%, #0c3970 100%);
-  background: -o-linear-gradient(left, #00408e 0%, #0c3970 100%);
-  background: linear-gradient(to right, #00408e 0%, #0c3970 100%); */
             border: 0px;
             color: #00408e;
         }
@@ -282,9 +278,6 @@
                 margin-right: 0px;
             }
         }
-
-        
-        
     </style>
 </head>
 
@@ -395,7 +388,7 @@
             </div>
         </div>
         <div class="whatsApp">
-         
+
             <button id="whatsappButton"><i class="fa-brands fa-whatsapp"></i></button>
         </div>
 
@@ -436,38 +429,39 @@
                             <form onsubmit="emailSend(); reset(); return false;">
                                 <div class="bg">
                                     <div class="form-row p-4 border-bottom">
-                                        <input type="text" class="font-14 form-control" id="name" placeholder="Name" required>
+                                        <input type="text" class="font-14 form-control" id="name" placeholder="Name"
+                                            required>
                                     </div>
                                     <div class="form-row border-bottom ">
                                         <div class="p-4 left w-50">
-                                            <input type="text" class="font-14 form-control" id="email" placeholder="Email"
-                                                required>
+                                            <input type="text" class="font-14 form-control" id="email"
+                                                placeholder="Email" required>
                                         </div>
 
                                         <div class="p-4 right w-50">
-                                            <input type="text" class="font-14 form-control" id="phone" placeholder="phone"
-                                                required>
+                                            <input type="text" class="font-14 form-control" id="phone"
+                                                placeholder="phone" required>
                                         </div>
                                     </div>
 
                                     <div class="form-row border-bottom p-4">
-                                        <textarea col="1" row="1" class="font-weight-light font-14 form-control" id="message"
-                                            placeholder="Write Down the Message"></textarea>
+                                        <textarea col="1" row="1" class="font-weight-light font-14 form-control"
+                                            id="message" placeholder="Write Down the Message"></textarea>
                                     </div>
                                     <button
                                         class="m-0 border-0 py-4 font-14 font-weight-medium btn btn-danger-gradiant btn-block position-relative rounded-0 text-center text-white text-uppercase">
                                         <span>Submit</span>
                                     </button>
                                 </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- <div class="carousel-item overly-bg-black img1">
+        <!-- <div class="carousel-item overly-bg-black img1">
                 <img class="d-block w-100" src="image/w2.jpg" alt="Second slide">
                 <div class="carousel-caption d-md-block newd">
                     <div class="col-md-4">
@@ -712,7 +706,8 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="input-box">
-                                            <input type="text" placeholder="Your Email" class="form-control" id="uemail">
+                                            <input type="text" placeholder="Your Email" class="form-control"
+                                                id="uemail">
                                         </div>
                                     </div>
 
@@ -984,7 +979,7 @@
     <script src="assets/js/ajax-mail.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
-    
+
 
     <script>
         function emailSend() {
@@ -994,17 +989,17 @@
             var phone = document.getElementById('phone').value;
             var message = document.getElementById('message').value;
 
-            var messageBody = "Name: &nbsp;"  + name +
+            var messageBody = "Name: &nbsp;" + name +
                 "<br/> Email: &nbsp;" + email +
-                "<br/> phone: &nbsp;" + email + 
+                "<br/> phone: &nbsp;" + email +
                 "<br/> message: &nbsp;" + message;
 
             Email.send({
                 Host: "smtp.elasticemail.com",
-                Username: "jaint6615@gmail.com",
+                Username: "acrepair@gmail.com",
                 Password: "AE470BB793F256855A28E456643E525674B3",
-                To: 'jaint6615@gmail.com',
-                From: "jaint6615@gmail.com",
+                To: 'acrepair@gmail.com',
+                From: "acrepair@gmail.com",
                 Subject: "This is the subject",
                 Body: messageBody
             }).then(
@@ -1026,47 +1021,62 @@
             var uaddress = document.getElementById('uaddress').value;
             var umessage = document.getElementById('umessage').value;
 
-            var messageBody = "Name: &nbsp;"  + uname +
-           "<br/> email: &nbsp;" + uemail +
-           "<br/> phone: &nbsp;" + uemail + 
-           "<br/> address: &nbsp;" + uaddress + 
-           "<br/> message: &nbsp;" + umessage;
-           
-           Email.send({
-            Host: "smtp.elasticemail.com",
-            Username: "jaint6615@gmail.com",
-            Password: "AE470BB793F256855A28E456643E525674B3",
-            To: 'jaint6615@gmail.com',
-            From: "jaint6615@gmail.com",
-            Subject: "This is the subject",
-            Body: messageBody
-        }).then(
-            message => {
-                if (message == 'OK') {
-               alert("Sucessful");
+            var messageBody = "Name: &nbsp;" + uname +
+                "<br/> email: &nbsp;" + uemail +
+                "<br/> phone: &nbsp;" + uemail +
+                "<br/> address: &nbsp;" + uaddress +
+                "<br/> message: &nbsp;" + umessage;
+
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "acrepair@gmail.com",
+                Password: "AE470BB793F256855A28E456643E525674B3",
+                To: 'acrepair@gmail.com',
+                From: "acrepair@gmail.com",
+                Subject: "This is the subject",
+                Body: messageBody
+            }).then(
+                message => {
+                    if (message == 'OK') {
+                        alert("Sucessful");
+                    }
+                    else {
+                        alert("Error");
+                    }
+                }
+            );
         }
-        else {
-            alert("Error");
-        }
-    }
-);
-}
 
     </script>
     <!-- whatsapp -->
 
-<script>
-    document.getElementById("whatsappButton").addEventListener("click", function() {
-        // Replace 'phoneNumber' with the phone number of the contact you want to message
-        var phoneNumber = "+917088869369"; 
-        
-        // Construct the WhatsApp URL with the phone number
-        var whatsappURL = "https://wa.me/" + phoneNumber;
-        
-        // Open WhatsApp in a new tab
-        window.open(whatsappURL, "_blank");
-    });
+    <script>
+        document.getElementById("whatsappButton").addEventListener("click", function () {
+            // Replace 'phoneNumber' with the phone number of the contact you want to message
+            var phoneNumber = "+917088869369";
+
+            // Construct the WhatsApp URL with the phone number
+            var whatsappURL = "https://wa.me/" + phoneNumber;
+
+            // Open WhatsApp in a new tab
+            window.open(whatsappURL, "_blank");
+        });
     </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/660b9192a0c6737bd1273de0/1hqej19uk';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
 
 
 </body>

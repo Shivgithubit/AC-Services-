@@ -286,7 +286,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 #scrollUp {
   width: 40px;
   height: 40px;
-  background-color: #00408e;
   color: #ffffff;
   right: 20px;
   bottom: 60px;
@@ -299,7 +298,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 #scrollUp i {
-  display: block;
+  display: none;
   line-height: 40px;
   font-size: 24px;
 }
@@ -2369,7 +2368,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .single-faq {
   margin-top: 30px;
   padding: 45px 25px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px 0 #3e5976;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -3801,7 +3800,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   height: 35px;
   width: 35px;
   content: "";
-  background-color:ye;
   transition: all 500ms linear;
   transition-delay: 0.1s;
   transform: scale(1);
@@ -3943,7 +3941,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     line-height: 38px;
   }
  
- 
   
 }
 @media only screen and (min-width:600px)and (max-width:767px){
@@ -3980,7 +3977,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     margin-left: 30px !important;
     margin-right: 30px !important;
   }
-
 
 }
 .newheadh1{
@@ -4019,27 +4015,36 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .whatsApp {
     position: fixed;
     top: 90%;
-    z-index: 5;
+    z-index: 999;
     color: white;
-    /* width: 75%; */
-    margin-left: 62px;
-    height: 85px;
-    border-radius: 50px;
+    margin-left: 30px;
 }
 .whatsApp button{
-  background-color: #25d366;
-border: 1px solid #25d366;
+  background-color: #56d062;
+border: 1px solid #56d062;
 border-radius: 50%;
 
 }
 .whatsApp button i{
-  font-size: 45px;
+  font-size: 50px;
 }
 .newbox{
   margin-left: 150px;
   margin-right: 150px;
 
 }
+@media screen and (max-width:1024px){
+  .newbox{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media only screen and (max-width:376px){
+  .whatsApp{
+    top: 87% !important;
+  }
+}
+
 
 
 
