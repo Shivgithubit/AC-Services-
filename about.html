@@ -147,6 +147,10 @@
 </div>
 </div>
 <!-- header-bottom-area End -->
+<div class="whatsApp">
+
+    <button id="whatsappButton"><i class="fa-brands fa-whatsapp"></i></button>
+</div>
     <!-- breadcrumb-area start -->
     <div class="breadcrumb-area section-ptb">
         <div class="container">
@@ -310,10 +314,11 @@
                     <!-- single-faq Start -->
                     <div class="single-faq text-center">
                         <div class="title-content">
-                            <h4>Can i fix my air conditioner prb in  my home anyway</h4>
+                            <h4>Can i fix my ac problem in my home anyway</h4>
                             <i class="icofont-question"></i>
                         </div>
-                        <p>It depends on the problem's complexity. Basic issues like filter cleaning can be DIY, but complex issues require professional help. </p>
+                        <p>Yes, for basic issues like filter cleaning. Complex problems may need professional assistance
+                            for resolution.</p>
                     </div>
                     <!-- single-faq Start -->
                 </div>
@@ -517,10 +522,10 @@
 
         Email.send({
             Host: "smtp.elasticemail.com",
-            Username: "jaint6615@gmail.com",
+            Username: "acrepair@gmail.com",
             Password: "AE470BB793F256855A28E456643E525674B3",
-            To: 'jaint6615@gmail.com',
-            From: "jaint6615@gmail.com",
+            To: 'acrepair@gmail.com',
+            From: "acrepair@gmail.com",
             Subject: "This is the subject",
             Body: messageBody
         }).then(
@@ -534,6 +539,32 @@
             }
         );
     }
+    </script>
+
+      <!--Start of Tawk.to Script-->
+      <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/660b9192a0c6737bd1273de0/1hqej19uk';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <script>
+        document.getElementById("whatsappButton").addEventListener("click", function () {
+            // Replace 'phoneNumber' with the phone number of the contact you want to message
+            var phoneNumber = "+917088869369";
+
+            // Construct the WhatsApp URL with the phone number
+            var whatsappURL = "https://wa.me/" + phoneNumber;
+
+            // Open WhatsApp in a new tab
+            window.open(whatsappURL, "_blank");
+        });
     </script>
 
 
